@@ -1,6 +1,6 @@
 
 export default {
-  entry: 'dist/esm/plugins/bootstrap/index.js',
+  entry: 'dist/esm/src/components/angular2-modal/plugins/bootstrap/index.js',
   dest: '.tmp/angular2-modal.bootstrap.umd.js',
   format: 'umd',
   moduleName: 'angular2Modal.plugins.bootstrap',

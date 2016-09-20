@@ -16,7 +16,7 @@ import { JSNativeModalContext } from './modal-context';
 @Injectable()
 export class JSNativeModalRenderer implements ModalRenderer {
 
-  render(type: Type,
+  render(type: Type<any>,
          viewContainer: ViewContainerRef,
          bindings: ResolvedReflectiveProvider[],
          dialog: DialogRef<JSNativeModalContext>): DialogRef<any> {

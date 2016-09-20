@@ -1,6 +1,6 @@
 
 export default {
-  entry: 'dist/esm/plugins/js-native/index.js',
+  entry: 'dist/esm/src/components/angular2-modal/plugins/js-native/index.js',
   dest: '.tmp/angular2-modal.js-native.umd.js',
   format: 'umd',
   moduleName: 'angular2Modal.plugins.jsNative',

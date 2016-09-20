@@ -81,7 +81,7 @@ export class Modal {
    *        Default: true if ViewContainer supplied, false if not supplied.
    * @returns {Promise<DialogRef>}
    */
-  public open(componentType: Type,
+  public open(componentType: Type<any>,
               context: ModalContext = undefined,
               bindings: ResolvedReflectiveProvider[] = undefined,
               viewContainer: ViewContainerRef = undefined,

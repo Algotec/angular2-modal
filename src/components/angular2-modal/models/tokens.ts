@@ -31,11 +31,11 @@ export interface ModalComponent<T> {
 }
 
 export class ModalCompileConfig {
-    constructor(public component: Type, public bindings: ResolvedReflectiveProvider[]) {}
+    constructor(public component: Type<any>, public bindings: ResolvedReflectiveProvider[]) {}
 }
 
 export abstract class ModalRenderer {
-    public abstract render(type: Type,
+    public abstract render(type: any,
            viewContainer: ViewContainerRef,
            bindings: ResolvedReflectiveProvider[],
            dialog: DialogRef<any>

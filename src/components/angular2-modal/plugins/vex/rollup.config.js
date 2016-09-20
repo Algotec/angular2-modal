@@ -1,6 +1,6 @@
 
 export default {
-  entry: 'dist/esm/plugins/vex/index.js',
+  entry: 'dist/esm/src/components/angular2-modal/plugins/vex/index.js',
   dest: '.tmp/angular2-modal.vex.umd.js',
   format: 'umd',
   moduleName: 'angular2Modal.plugins.vex',

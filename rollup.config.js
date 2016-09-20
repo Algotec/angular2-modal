@@ -1,6 +1,6 @@
 
 export default {
-  entry: 'dist/esm/index.js',
+  entry: 'dist/esm/src/components/angular2-modal/index.js',
   dest: '.tmp/angular2-modal.umd.js',
   format: 'umd',
   moduleName: 'angular2Modal',
